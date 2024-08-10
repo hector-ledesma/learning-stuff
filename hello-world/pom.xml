@@ -12,6 +12,7 @@
 	<artifactId>hello-world</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hello-world</name>
+	<packaging>jar</packaging>
 	<description>Incrementally learning Spring stuff</description>
 	<url/>
 	<licenses>
@@ -48,6 +49,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+      <plugin>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-maven-plugin</artifactId>
+		  <version>3.3.2</version>
+	  </plugin>
 		</plugins>
 	</build>
 
